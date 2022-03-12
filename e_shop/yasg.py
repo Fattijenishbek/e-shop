@@ -6,7 +6,7 @@ from drf_yasg import openapi
 
 schema_view = get_schema_view(
     openapi.Info(
-        title = 'Courses Project Doc',
+        title = 'E-Shop Project Doc',
         default_version= 'v1',
         description='description: api for courses',
         license=openapi.License(name="BSD License"),
