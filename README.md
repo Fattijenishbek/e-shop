@@ -20,7 +20,7 @@ machine for development and testing purposes.
 
 #### __1. Clone the repository__
 ```
-$ git clone https://github.com/Fattijenishbek/e-shop
+$ git clone https://github.com/Fattijenishbek/e-shop.git
 ```
 #### __2. Generate a new secret key__
 You can use [ Djecrety](https://djecrety.ir/) to quickly generate
