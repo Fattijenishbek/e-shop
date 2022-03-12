@@ -24,6 +24,7 @@ from carts.views import *
 
 from users.views import *
 from orders.views import *
+from .yasg import urlpatterns as doc_url
 
 urlpatterns = [
     path("admin/", admin.site.urls),
@@ -51,4 +52,6 @@ urlpatterns = [
     path("api/products/categories/",CategoryListCreate.as_view(),name="category_list_api",),
     path("api/promocodes/",PromocodoApi().as_view(),name="promocode_api",),
 ]
+
+urlpatterns+=doc_url
 

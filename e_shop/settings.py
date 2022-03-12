@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     "django_filters",
     "django_extensions",
     "rest_framework",
+    "drf_yasg",
     "allauth",
     "products",
     "carts",
